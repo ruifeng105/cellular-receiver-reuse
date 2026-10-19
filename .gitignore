@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+# Author files fetched by simulation/code/fetch_author_sources.py. They are not redistributed from
+# this repository; see simulation/public_data/NOTICE.md.
+simulation/public_data/fgf2_author_repository/
+
+# Per-step logs of a reproduction run. reproduce.py writes them on every run, so they are
+# outputs rather than inputs and are not tracked.
+reproduction/logs/
