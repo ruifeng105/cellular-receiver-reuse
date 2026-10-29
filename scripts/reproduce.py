@@ -635,7 +635,7 @@ def main():
         "started_utc": datetime.now(timezone.utc).isoformat(),
         "environment": {"python": platform.python_version(),
                         **{name: metadata.version(name) for name in
-                           ("numpy", "pandas", "matplotlib", "openpyxl")}},
+                           ("numpy", "scipy", "pandas", "matplotlib", "openpyxl")}},
         "steps": [], "controller_evaluated": False,
         "b3_original_simulator_rerun": False,
         "scope": "Fixed pilot reproduction; B3 original-author exports are reused.",

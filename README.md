@@ -104,7 +104,7 @@ licence at its root, which is why this repository fetches those files instead of
 
 ## Environment
 
-The recorded run used Python 3.13.3, NumPy 2.3.2, pandas 2.3.2, Matplotlib 3.10.6 and openpyxl 3.1.5; the exact
+The recorded run used Python 3.13.3, NumPy 2.3.2, SciPy 1.17.1, pandas 2.3.2, Matplotlib 3.10.6 and openpyxl 3.1.5; the exact
 environment of any run is written to `reproduction/run_report.json`, and the pilot's historical environment is
 in `simulation/results/fgf2_pilot/runtime_versions.json`.
 

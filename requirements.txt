@@ -3,3 +3,5 @@ numpy
 pandas>=1.5
 openpyxl
 matplotlib
+# solve_ivp integrates the B3 model; scipy.stats does the binomial and Clopper-Pearson work.
+scipy>=1.10
